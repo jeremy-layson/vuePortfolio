@@ -1,0 +1,202 @@
+$breakpoint-tablet: 768px;
+$breakpoint-pc: 1281px;
+
+@media (orientation: landscape) {
+    .introduction {
+        background-image: url('../assets/image/coffee-background-landscape.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+    }
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+   .button-container {
+        & .button {
+            .long-override {
+                line-height: 20vh;
+            }
+        }
+    }
+    .pre-introduction {
+
+        & .button-container {
+            width: 40vw;
+            margin-left: 30vw;
+
+            & .button {
+
+                & p {
+
+                }
+            }
+        }
+    }
+
+    .introduction {
+        background-image: url('../assets/image/coffee-background.jpg');
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: 100% -1200px;
+        padding-top: 5%;
+        & .name {
+            width: 40vw;
+            margin-left: 30vw;
+            & h1 {
+                font-size: 4em;
+                text-align: center;
+            }
+        }
+
+        & .about-me {
+            width: 40vw;
+            margin-left: 30vw;
+            margin-bottom: 20px;
+            & p {
+                text-align: center;
+                font-size: 1.2em;
+            }
+        }
+
+        & .button-container {
+            width: 20vw;
+            margin-left: 40vw;
+
+                height: 4em;
+            & .button {
+                & p {
+                    font-size: 1.2em;
+                    line-height: 3em;
+                }
+            }
+        }
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .button-container {
+        & .button {
+            .long-override {
+                line-height: 20vh;
+            }
+        }
+    }
+
+    .pre-introduction {
+
+        & .button-container {
+
+            & .button {
+
+                & p {
+                    font-size: 3em;
+                }
+            }
+        }
+    }
+
+    .introduction {
+
+        & .name {
+
+            & h1 {
+                font-size: 3em;
+            }
+        }
+
+        & .about-me {
+
+            & p {
+                font-size: 1.6em;
+            }
+        }
+
+
+        & .button-container {
+            height: 6em;
+
+            & .button {
+                & p {
+                    font-size: 1.6em;
+                    line-height: 3.4em;
+                }
+            }
+        }
+    }
+}
+
+
+/*
+    Ipad Pro Specific design
+ */
+@media (min-width: 1024px) and (min-height: 1366px) {
+
+    .introduction {
+
+        & .name {
+
+            & h1 {
+                font-size: 4em;
+            }
+        }
+
+        & .about-me {
+
+            & p {
+                font-size: 3em;
+            }
+        }
+
+        & .button-container {
+            height: 10em;
+
+            & .button {
+                & p {
+                    font-size: 2.5em;
+                    line-height: 4em;
+                }
+            }
+        }
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  //CSS
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  //CSS
+  
+}

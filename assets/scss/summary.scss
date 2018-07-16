@@ -1,0 +1,87 @@
+.summary-work {
+    margin-top: 100vh;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    background-color: #EAF2EF;
+
+
+    & .card-collection {
+
+        & .card {
+            width: 20%;
+            height: 20vh;
+            padding: 5px;
+            & .card-content {
+                height: 100%;
+                width: 100%;
+                padding: 3px;
+                border-radius: 3px;
+            }
+        }
+
+        & .float-left { float: left; }
+        & .float-right { float: right; }
+
+        & .color-1 {
+            color: rgb(18, 22, 25);
+            border: 1px solid rgb(18, 22, 25);
+        }
+        & .color-2 {
+            color: rgb(28, 32, 35);
+            border: 1px solid rgb(28, 32, 35);
+        }
+        & .color-3 {
+            color: rgb(38, 42, 45);
+            border: 1px solid rgb(38, 42, 45);
+        }
+        & .color-4 {
+            color: rgb(48, 52, 55);
+            border: 1px solid rgb(48, 52, 55);
+        }
+        & .color-5 {
+            color: rgb(58, 62, 65);
+            border: 1px solid rgb(58, 62, 65);
+        }
+        & .color-6 {
+            color: rgb(68, 72, 75);
+            border: 1px solid rgb(68, 72, 75);
+        }
+        & .color-7 {
+            color: rgb(78, 82, 85);
+            border: 1px solid rgb(78, 82, 85);
+        }
+        & .color-8 {
+            color: rgb(88, 92, 95);
+            border: 1px solid rgb(88, 92, 95);
+        }
+        & .color-9 {
+            color: rgb(98, 102, 105);
+            border: 1px solid rgb(98, 102, 105);
+        }
+        & .color-10 {
+            color: rgb(108, 112, 115);
+            border: 1px solid rgb(108, 112, 115);
+        }
+        & .color-11 {
+            color: rgb(118, 122, 125);
+            border: 1px solid rgb(118, 122, 125);
+        }
+        & .color-12 {
+            color: rgb(128, 132, 135);
+            border: 1px solid rgb(128, 132, 135);
+        }
+        & .color-13 {
+            color: rgb(138, 142, 145);
+            border: 1px solid rgb(138, 142, 145);
+        }
+        & .color-14 {
+            color: rgb(148, 152, 155);
+            border: 1px solid rgb(148, 152, 155);
+        }
+        & .color-15 {
+            color: rgb(158, 162, 165);
+            border: 1px solid rgb(158, 162, 165);
+        }
+    }
+}

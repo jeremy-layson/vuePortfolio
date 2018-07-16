@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button-container {
+    border: 2px solid white;
+    width: 80%;
+    height: 20%;
+    margin-left:10%;
+    transition: background-color 0.2s;
+    & .button {
+        width: 100%;
+        & p {
+            vertical-align: middle;
+            text-align: center;
+            font-size: 2em;
+            line-height: 20vh;
+
+            &:hover {
+                color: #121619;
+            }
+        }
+
+        & .long-override {
+            line-height: 10vh;
+        }
+    }
+
+    &:hover {
+        background-color: white;
+        color: #121619;
+    }
+}
+
+.introduction {
+    z-index: 98;
+    background-image: url('../assets/image/coffee-background.jpg');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5vh;
+    padding-top: 15%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Raleway', serif;
+    color: white;
+
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    & .name {
+        padding-bottom: 25px;
+
+        & h1 {
+            text-align: center;
+            font-size: 2em;
+        }
+    }
+
+    & .about-me {
+        margin-bottom: 8%;
+
+        & p {
+            font-size: 1em;
+            text-align: left;
+        }
+    }
+
+    & .button-container {
+        height: 4em;
+
+        & .button {
+            & p {
+                font-size: 1em;
+                line-height: 4em;
+            }
+        }
+    }
+}
+
+
+
+.pre-introduction {
+    z-index: 99;
+    background-color: #121619;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    transition: opacity 0.5s;
+
+    & .button-container {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 20vh;
+
+        & p {
+            vertical-align: middle;
+            font-size: 2em;
+            line-height: 20vh;
+        }
+    }
+}

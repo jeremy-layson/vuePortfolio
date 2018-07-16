@@ -1,0 +1,61 @@
+.works {
+    margin-top: 200vh;
+    height: 100vh;
+    width: 300vw;
+
+    overflow: hidden;
+    background-color: #F0F7F4;
+    padding: 10px;
+
+    & .work-container {
+        float:left;
+        width: 33.333vw;
+        height: 100%;
+        padding: 5px;
+
+        & .work {
+            padding: 10px;
+            width: 100%;
+            height: 100%;
+            border: 1px solid black;
+
+            & .position {
+                border-bottom: 2px solid black;
+                padding-bottom: 3px;
+            }
+
+            & .technologies {
+                border-radius: 5px;
+                border: 1px dotted black;
+                display: inline-block;
+                padding: 3px;
+                & .technology {
+                    float:left;
+                    color: white;
+                    margin-right: 3px;
+                    margin-bottom: 3px;
+                    & .primary {
+                        background-color: #0C6291;
+                    }
+
+                    & .secondary {
+                        background-color: #3CBBB1;
+                    }
+
+                    & .primary, .secondary {
+                        padding: 4px;
+                        border-radius: 5px;
+                    }
+                    &:hover {
+                        cursor: default;
+                    }
+                }
+
+                & .technology:last-child {
+                    margin-right: 0px;
+                }
+
+            }
+        }
+    }
+}
