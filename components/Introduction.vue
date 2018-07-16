@@ -4,7 +4,7 @@
             <h1>I am {{name.first}}</h1>
         </div>
         <div class="about-me" id="about-me">
-            <p>A young software developer who specializes in Back-End Development</p>
+            <p>A young software developer who specializes in back-end development</p>
             <p>&nbsp;</p>
             <p>I also do front-end development and hardware integrations on my side projects.</p>
             <p>&nbsp;</p>
