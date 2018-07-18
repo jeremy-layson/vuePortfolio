@@ -1,19 +1,21 @@
 <template>
     <div class="introduction" id="introduction">
-        <div class="name">
-            <h1>I am {{name.first}}</h1>
-        </div>
-        <div class="about-me" id="about-me">
-            <p>A young software developer who specializes in back-end development</p>
-            <p>&nbsp;</p>
-            <p>I also do front-end development and hardware integrations on my side projects.</p>
-            <p>&nbsp;</p>
-            <p>I like coffee, writing <span style="text-decoration: line-through;">messy</span> codes and stories.</p>
-        </div>
-        <div class="button-container">
-            <a href="#summary-work" v-on:click="scrollDown">
-                <div class="button"><p class="long-override">{{caption}}</p></div>
-            </a>
+        <div class="intro-content">
+            <div class="name">
+                <h1>I am {{name.first}}</h1>
+            </div>
+            <div class="about-me" id="about-me">
+                <p>A young software developer who specializes in back-end development</p>
+                <p>&nbsp;</p>
+                <p>I also do front-end development and hardware integrations on my side projects.</p>
+                <p>&nbsp;</p>
+                <p>I like coffee, writing <span style="text-decoration: line-through;">messy</span> codes and stories.</p>
+            </div>
+            <div class="button-container">
+                <a href="#summary-work" v-on:click="scrollDown">
+                    <div class="button"><p class="long-override">{{caption}}</p></div>
+                </a>
+            </div>
         </div>
     </div>
 </template>

@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=ABeeZee');
 
+
 a {
     text-decoration: none;
     color: white;
@@ -43,7 +44,6 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     padding: 5vh;
-    padding-top: 15%;
     height: 100%;
     width: 100%;
     font-family: 'Raleway', serif;
@@ -53,6 +53,14 @@ a {
     top: 0px;
     left: 0px;
 
+    & .intro-content {
+        height: 60vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20vh;
+    }
+
     & .name {
         padding-bottom: 25px;
         width: 80%;
@@ -61,7 +69,7 @@ a {
 
         & h1 {
             font-weight: normal;
-            text-align: center;
+            text-align: inherit;
             font-size: 2em;
         }
     }
@@ -72,13 +80,13 @@ a {
         margin-left: 10%;
         & p {
             font-size: 1em;
-            text-align: center;
+            text-align: inherit;
         }
     }
 
     & .button-container {
         height: 4em;
-        width: 80%;
+        width: calc(30rem);
         margin-left: 10%;
         & .button {
             & p {

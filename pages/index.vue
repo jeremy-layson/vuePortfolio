@@ -46,4 +46,22 @@ export default {
     body {
       overflow: hidden;
     }
+
+
+    html {
+        font-size: calc(1vw);
+    }
+
+    @media (orientation: portrait) {
+        html {
+            font-size: calc(2vh);
+        }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 768px) {
+        html {
+            font-size: calc(1.5vw);
+        }
+    }
 </style>
