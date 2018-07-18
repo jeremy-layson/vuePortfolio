@@ -68,7 +68,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
     @import '../assets/scss/intro.scss';
     @import '../assets/scss/r-intro.scss';
 </style>

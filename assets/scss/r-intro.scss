@@ -7,6 +7,7 @@ $breakpoint-pc: 1281px;
         background-size: 100% auto;
         background-repeat: no-repeat;
         background-position: right bottom;
+
         & .intro-content {
             text-align: left;
             width: 50%;
@@ -39,22 +40,36 @@ $breakpoint-pc: 1281px;
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
-
+    html { font-size: calc(1.5vw);}
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+    html { font-size: calc(1.8vw);}
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    html { font-size: calc(1.6vw);}
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
 
+    html { font-size: calc(1.2vw);}
+
+    .introduction {
+
+        & .intro-content {
+            width: 50vw;
+        }
+    }
 }
 
+/* iPads */
+@media only screen and (min-width : 1024px) {
+    // html { font-size: calc(1.6vw);}    
+}
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
 

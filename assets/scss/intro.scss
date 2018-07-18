@@ -58,7 +58,7 @@ a {
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 20vh;
+        margin-top: 5%;
     }
 
     & .name {
@@ -85,8 +85,9 @@ a {
     }
 
     & .button-container {
+        width: 50%;
         height: 4em;
-        width: calc(30rem);
+        max-width: 100%;
         margin-left: 10%;
         & .button {
             & p {
