@@ -5,7 +5,7 @@
                 <div class="button"><p>{{caption}}</p></div>
             </a>
             <a href="#" v-else>
-                <div class="button"><p class="long-override">Loading Awesomeness...</p></div>
+                <div class="button"><p>Loading Awesomeness...</p></div>
             </a>
         </div>
     </div>

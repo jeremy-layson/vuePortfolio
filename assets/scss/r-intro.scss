@@ -34,27 +34,31 @@ $breakpoint-pc: 1281px;
             }
         }
     }
+
+    html {
+        font-size: calc(2vh);
+    }
 }
 
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */ 
-@media only screen and (min-width : 320px) {
+@media only screen and (min-width : 320px) and (orientation: landscape) {
     html { font-size: calc(1.5vw);}
 }
 
 /* Extra Small Devices, Phones */ 
-@media only screen and (min-width : 480px) {
+@media only screen and (min-width : 480px) and (orientation: landscape) {
     html { font-size: calc(1.8vw);}
 }
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+@media only screen and (min-width : 768px) and (orientation: landscape) {
     html { font-size: calc(1.6vw);}
 }
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+@media only screen and (min-width : 992px) and (orientation: landscape) {
 
     html { font-size: calc(1.2vw);}
 
@@ -67,16 +71,30 @@ $breakpoint-pc: 1281px;
 }
 
 /* iPads */
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 1024px) and (orientation: landscape) {
     // html { font-size: calc(1.6vw);}    
 }
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 1200px) and (orientation: landscape) {/* Large Devices, Wide Screens */
 
+    .pre-introduction {
+
+        & .button-container {
+            width: 50vw;
+            margin-left: 25vw;
+        }
+    }
+
+    html {
+        font-size: calc(1.7vw);
+    }
 }
 
-
-
+@media only screen and (min-width : 1920px) and (orientation: landscape) {
+    html {
+        font-size: calc(1.2vw);
+    }
+}
 /*==========  Non-Mobile First Method  ==========*/
 
 /* Large Devices, Wide Screens */
